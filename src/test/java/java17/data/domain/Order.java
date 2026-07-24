@@ -18,6 +18,8 @@ public class Order {
 		this.pizzas = pizzas;
 	}
 
+	
+
 	public double getPrice() {
 		return pizzas.stream().mapToDouble(p -> p.getPrice()).sum();
 	}
