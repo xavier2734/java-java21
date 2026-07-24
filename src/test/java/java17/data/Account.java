@@ -13,6 +13,11 @@ public class Account {
         this.owner = owner;
     }
 
+    public Account(Person owner, Integer balance) {
+        this.owner = owner;
+        this.balance = balance;
+    }
+
     public Integer getBalance() {
         return balance;
     }
